@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZiomaraShop</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f7f3ef;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:100vh;
+      text-align:center;
+      color:#111;
+      background-image: url('./img/ziomara_shop_hero_banner_ziomarashop.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .container{
+      max-width:500px;
+      padding:40px;
+      filter: drop-shadow(2px 4px 6px black);
+    }
+
+    #logo{
+        width: 300px;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+
+    h1{
+      /* Visually hide but keep for SEO and accessibility */
+      position:absolute;
+      left:-9999px;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+    }
+
+    p{
+      margin-bottom:30px;
+      color:#ffffff;
+      filter: drop-shadow(2px 4px 6px black);
+    }
+
+    a{
+      display:inline-block;
+      padding:14px 30px;
+      background:#9b59b6;
+      color:white;
+      text-decoration:none;
+      border-radius:999px;
+    }
+
+    /* Mobile background image */
+    @media (max-width: 600px) {
+      body {
+        background-image: url(./img/ziomara_shop_hero_banner_ziomarashop_movil.png);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>ZIOMARASHOP</h1>
+    <img id="logo" src="./img/ziomara_shop_logo_ziomarashop.png" alt="ZiomaraShop ziomara logo">
+
+    <p>
+      Nueva colección disponible.
+    </p>
+
+    <a href="https://ziomarashop.mitiendanube.com">
+      VER TIENDA
+    </a>
+  </div>
+
+</body>
+</html>
